@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { badge, thirdweb } from '../assets';
+import { thirdweb } from '../assets';
 import { daysLeft } from '../utils';
 
 const FundCard = ({ owner, title, description, target, deadline, amountCollected, image, handleClick }) => {
