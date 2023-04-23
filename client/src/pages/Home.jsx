@@ -22,11 +22,11 @@ const Home = () => {
 
   return (
     <DisplayCampaigns 
-      title="All Campaigns"
+      title="Home - campaigns"
       isLoading={isLoading}
       campaigns={campaigns}
     />
   )
 }
 
-export default Home
+export default Home;

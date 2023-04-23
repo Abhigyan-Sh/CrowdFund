@@ -22,11 +22,11 @@ const Profile = () => {
 
   return (
     <DisplayCampaigns 
-      title="All Campaigns"
+      title="Campaigns you initiated !"
       isLoading={isLoading}
       campaigns={campaigns}
     />
   )
 }
 
-export default Profile
+export default Profile;

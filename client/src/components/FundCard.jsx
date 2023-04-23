@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { thirdweb } from '../assets';
+import { badge, thirdweb } from '../assets';
 import { daysLeft } from '../utils';
 
 const FundCard = ({ owner, title, description, target, deadline, amountCollected, image, handleClick }) => {
@@ -40,4 +40,4 @@ const FundCard = ({ owner, title, description, target, deadline, amountCollected
   )
 }
 
-export default FundCard
+export default FundCard;
